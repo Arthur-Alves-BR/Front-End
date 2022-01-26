@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+
+main {
+    width: 80%;
+    height: 46%;
+    display: flex;
+    overflow: hidden;
+    min-height: 600px;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px 2px rgba(0, 0, 0, 0.212);
+}
+
+p {
+    margin: 5px;
+}
+
+button {
+    left: 50%;
+    width: 200px;
+    height: 50px;
+    border: unset;
+    font-size: 16pt;
+    transition: 0.3s;
+    font-weight: 500;
+    position: absolute;
+    border-radius: 50px;
+    transform: translate(-50%, 0);
+    color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: translate(-50%, 3px);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+.new-game {
+    margin-top: 40px;
+}
+
+.roll-dice {
+    margin-top: 390px;
+}
+
+.hold {
+    width: 150px;
+    margin-top: 460px;
+}
+
+section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition-duration: 0.8s;
+    background-color: rgba(255, 255, 255, 0.315);
+}
+
+.name {
+    margin: 20px 0;
+    font-size: 30pt;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.total-score {
+    font-size: 50pt;
+    color: #c7365fb7;
+}
+
+.current-score-container {
+    width: 40%;
+    height: 20%;
+    display: flex;
+    margin-top: 24%;
+    font-size: 16pt;
+    font-weight: 300;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c7365fb7;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.current-score {
+    font-size: 30pt;
+    font-weight: 500;
+}
+
+.dice {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 170px;
+    position: absolute;
+    transform: translate(-50%, 0);
+    box-shadow: 0 0 20px 0.6px rgba(0, 0, 0, 0.25);
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.active .name {
+    font-weight: 600;
+}
+
+.active .total-score {
+    color: #c7365f;
+}
+
+.active .current-score-container {
+    background-color: #c7365f;
+}
+
+.win {
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.win .name {
+    color: #c7365f;
+}

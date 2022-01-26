@@ -1,0 +1,107 @@
+* {
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.dark-body {
+    background-color: rgb(19, 18, 18);
+}
+
+.green-body {
+    background-color: rgb(79, 168, 79);
+}
+
+.red-body {
+    background-color: rgb(194, 47, 47);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 150px;
+    height: 60px;
+    margin: 20px;
+}
+
+input {
+    width: 250px;
+    height: 90px;
+    text-align: center;
+}
+
+.text-light {
+    color: rgb(214, 220, 224);
+}
+
+.background-light {
+    background-color: rgb(214, 220, 224);
+}
+
+.number-box-container {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-line {
+    height: 6px;
+    flex-grow: 1;
+}
+
+.game-panel {
+    display: flex;
+    margin-top: 80px;
+}
+
+.game-panel-column {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.medium-font {
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+.game-info {
+    text-align: left;
+}
+
+.big-font {
+    font-size: 50pt;
+    font-weight: 900;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    padding-right: 20px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 35px;
+}
