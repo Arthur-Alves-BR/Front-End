@@ -1,0 +1,44 @@
+body{
+    display: inline;
+    overflow: hidden;
+}
+
+#screen {
+    border: 10px solid #CCC;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    position: relative;
+    height: 470px;
+    width: 470px;
+}
+
+#container{
+    position: absolute;
+    height: 520px;
+    width: 520px;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+#painel{
+    position: relative;
+    height: 100px;
+    width: 500px;
+}
+
+button{
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 16pt;
+}
+
+p{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20pt;
+}
