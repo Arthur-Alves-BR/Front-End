@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCalculator</title>
+    <style type="text/css">
+        * {
+            font-size: 30pt;
+            color: #130f40;
+            font-weight: 600;
+            font-family: monospace;
+            box-sizing: border-box;
+        }    
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #6c7c86;
+        }
+        .calculator {
+            width: 500px;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border: #c7ecee solid 5px;
+            background-color: #95afc0;
+            justify-content: space-evenly;
+            box-shadow: rgb(31, 29, 29) 0px 0px 5px 0px;
+        }
+        .screen {
+            width: 80%;
+            height: 70px;
+            display: flex;
+            color: #130f40;
+            padding-top: 3px;
+            align-items: center;
+            padding-right: 20px;
+            justify-content: end;
+            background-color: #dff9fb;
+            box-shadow: rgb(31, 29, 29) 0px 5px 4px 0px;
+        }
+        .buttons-container {
+            width: 80%;
+            height: 70%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .line-of-buttons {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: space-between;
+        }
+        button {
+            width: 20%;
+            border: unset;
+            display: flex;
+            margin: 0px 1px;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            box-shadow: rgb(31, 29, 29) 0px 5px 4px 0px; 
+        }
+        .gray-button {
+            background-color: #b3c2cc;    
+        }
+        .red-buttom {
+            background-color: #eb4d4b;
+        }
+        .yellow-buttom {
+            background-color: #f6e58d;
+        }
+        .red-buttom:hover {
+            background-color: #e92a27;
+        }
+        .gray-button:hover {
+            background-color: #97a3ac;
+        }
+        .yellow-buttom:hover {
+            background-color: #fde04c;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <span>2 + 2 = 4</span>
+        </div>
+        <div class="buttons-container">
+            <div class="line-of-buttons">
+                <button class="gray-button">1</button>
+                <button class="gray-button">2</button>
+                <button class="gray-button">3</button>
+                <button class="yellow-buttom">+</button>
+            </div>
+            <div class="line-of-buttons">
+                <button class="gray-button">4</button>
+                <button class="gray-button">5</button>
+                <button class="gray-button">6</button>
+                <button class="yellow-buttom">-</button>
+            </div>
+            <div class="line-of-buttons">
+                <button class="gray-button">7</button>
+                <button class="gray-button">8</button>
+                <button class="gray-button">9</button>
+                <button class="yellow-buttom">*</button>
+            </div>
+            <div class="line-of-buttons">
+                <button class="red-buttom">C</button>
+                <button class="gray-button">0</button>
+                <button class="gray-button">=</button>
+                <button class="yellow-buttom">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
