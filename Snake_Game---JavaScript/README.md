@@ -5,4 +5,4 @@ A simple snake game developed using basic HTML, CSS and JS.
 Use keyboard arrows to move the snake
 
 ## Preview
-![alt text](https://github.com/Arthur-Alves-BR/Snake_Game---JavaScript/blob/main/preview.png)
+![alt text](https://github.com/Arthur-Alves-BR/Front-End/blob/main/Snake_Game---JavaScript/preview.png)
